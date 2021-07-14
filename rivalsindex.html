@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+.header {
+  border: 1px solid blue;
+  padding: 10px;
+}
+
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+[class*="col-"] {
+  float: left;
+  padding: 15px;
+  border: 1px solid blue;
+}
+
+#yu1{
+color:blue;
+}
+
+#yu2{
+color:green;
+}
+
+#yu3{
+color:red;
+}
+
+#yu1,#yu2,#yu3{
+font-size:120%;
+}
+
+#yu4{
+color:purple;
+}
+
+.col-1 {width: 8.33%;}
+.col-2 {width: 16.66%;}
+.col-3 {width: 25%;}
+.col-4 {width: 33.33%;}
+.col-5 {width: 41.66%;}
+.col-6 {width: 50%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100%;}
+</style>
+</head>
+<body>
+
+<div class="header">
+  <h1>Yu-gi-oh rivals</h1>
+</div>
+
+<div class="row">
+
+<div class="col-4">
+  <ul>
+     <h2 id=yu4>Duel monsters</h2>
+     <img src="kaiba.jfif" style="float:right;width:200px;height:200px;">
+    <li id="yu1">Seto Kaiba</li>
+    <li id="yu1">age:18</li>
+    <li id="yu2">won 20 games</li>
+    <li id="yu3">lost 5 games</li>
+  </ul>
+
+</div>
+
+<div class="col-4">
+  <ul>
+     <h2 id=yu4>GX</h2>
+   <img src="chazz.jfif" style="float:right;width:200px;height:200px;">
+   <li id="yu1">Chazz Princeton</li>
+    <li id="yu1">age:17</li>
+    <li id="yu2">won 73 games</li>
+    <li id="yu3">lost 12 games</li>
+  </ul>
+</div>
+
+<div class="col-4">
+  <ul>
+     <h2 id=yu4>5ds</h2>
+     <img src="jack.jfif" style="float:right;width:200px;height:200px;">
+    <li id="yu1">Jack Atlas</li>
+    <li id="yu1">age:21</li>
+    <li id="yu2">won 172 games</li>
+    <li id="yu3">lost 7 games</li>
+  </ul>
+</div>
+
+<div class="col-4">
+  <ul>
+     <h2 id=yu4>Zexal</h2>
+     <img src="shark.jfif" style="float:right;width:200px;height:200px;">
+   <li id="yu1">Reginald Kastle/Shark</li>
+    <li id="yu1">age:14</li>
+    <li id="yu2">won 172 games</li>
+    <li id="yu3">lost 7 games</li>
+  </ul>
+</div>
+
+<div class="col-4">
+  <ul>
+     <h2 id=yu4>ARC-V</h2>
+   <img src="declan.jfif" style="float:right;width:200px;height:200px;">
+   <li id="yu1">Declan Akaba</li>
+    <li id="yu1">age:15</li>
+    <li id="yu2">won 9 games</li>
+    <li id="yu3">lost 3 games</li>
+  </ul>
+</div>
+
+<div class="col-4">
+  <ul>
+     <h2 id=yu4>VRAINS</h2>
+    <img src="revolver.jfif" style="float:right;width:200px;height:200px;">
+   <li id="yu1">Ryokern Kogami/revolver</li>
+    <li id="yu1">age:18</li>
+    <li id="yu2">won 6 games</li>
+    <li id="yu3">lost 3 games</li>
+  </ul>
+</div>
+
+</div>
+
+</body>
+</html>
