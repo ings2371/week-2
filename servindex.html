@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h1>words</h1>
+
+<p>Hi and welcome to this form, we are conducting a survey of things today.</p>
+
+<p>I'm gonna need your full name, age, and other stuff here down bellow.</p>
+<form action="mailto:w0468723@campus.nscc.ca" autocomplete="on" method="post">
+<fieldset>
+  <legend>Info to fillout</legend>
+  <!--to see who did the survey-->
+  <label for="flname">Full name:</label>
+  <input type="text" id="flname" name="flname" min="2">
+   <br><br>
+   <!--to see where a persons from from-->
+   <label for="city">City:</label>
+  <input type="text" id="city" name="city" min="2 characters">
+ <br><br>
+ <!--to see how old a person did this-->
+  <label for="age">Age:</label>
+  <input type="number" id="age" name="age" min="16" max="116">
+   <br><br>
+   <!--to know when a person did this-->
+  <label for="datemin">The date:</label>
+  <input type="date" id="datemin" name="datemin" min="2021-07-15">
+  <br><br>
+  <!--wanting to know what the people's favorite number is out of these one's-->
+ <p>your favorite number out of these one's:</p>
+ <input type="radio" id="html" name="fav_number" value="69">
+ <label for="69">69</label><br>
+  <input type="radio" id="69" name="fav_number"   
+ value="24">
+  <label for="24">24</label><br>
+  <input type="radio" id="24" name="fav_number" value="7">
+  <label for="7">7</label> 
+ <br><br>
+
+<!--wondering what kind of elements people like-->
+<p>Click each element you like bellow:</p>
+<input type="checkbox" id="water" name="water" value="element">
+ <label for="water">Water</label><br>
+<input type="checkbox" id="fire" name="fire" value="element">
+ <label for="fire">Fire</label><br>
+<input type="checkbox" id="earth" name="earth" value="element">
+ <label for="earth">Earth</label><br> 
+<input type="checkbox" id="air" name="air" value="element">
+ <label for="air">Air</label><br>
+<br>
+
+<!--wondering what is the persons favorite suit is-->
+<p>Whats your favorite playing card suit?
+ <br><br>
+ <input list="playing card suits" name="suits">
+  <datalist id="suit">
+    <option value="Spades">
+    <option value="Clubs">
+    <option value="Dimonds">
+    <option value="Hearts">
+  </datalist>
+
+<!--to see how your time went when doing the survey-->
+<p>How was the survey?</p>
+<textarea name="message" row="11" col="33"></textarea>
+<br><br>
+<input type="submit" value="Submit">
+   <input type="reset">
+</fieldset>
+</form>
+
+</body>
+</html>
